@@ -1,0 +1,145 @@
+/* BACKGROUND — UNCHANGED */
+.signup-bg {
+  background-image: url("../assets/images/img3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 97vw;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   /* ✅ start from top */
+
+  padding-top: 40px;         /* ✅ space from top */
+  padding-bottom: 40px;
+
+  overflow-y: auto;
+}
+
+
+/* CARD */
+.signup-card {
+  width: 90%;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.signup-header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ROLE SWITCH */
+.role-switch {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.role-switch button {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #0F5C63;
+  background: transparent;
+  cursor: pointer;
+}
+
+.role-switch .active {
+  background-color: #0F5C63;
+  color: white;
+}
+
+/* INPUTS */
+.signup-input {
+  width: 100%;
+  padding: 16px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.signup-input:focus {
+  outline: none;
+  border: 2px solid #0F5C63;
+  background-color: #fff;
+}
+
+/* TEXTAREA */
+.textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* LABELS */
+.label {
+  font-weight: bold;
+  margin: 15px 0 8px;
+}
+
+/* OPTION BUTTONS */
+.option-group,
+.days-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.option-group button,
+.days-group button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 2px solid #0F5C63;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.option-group button.active,
+.days-group button.active {
+  background-color: #0F5C63;
+  color: white;
+}
+
+/* SUBMIT */
+.signup-button {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #0F5C63;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.signup-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-login {
+  color: #0F5C63;
+  font-weight: bold;
+  cursor: pointer;
+}
+

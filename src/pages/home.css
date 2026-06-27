@@ -1,0 +1,61 @@
+.home-container {
+  height: 100vh;              /* NOT min-height */
+  width: 100vw;
+
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+/* Navbar */
+.navbar {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Navbar links */
+.nav-buttons a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Center quote */
+.center-text {
+  flex: 1;                       /* ⬅ fills remaining height */
+  display: flex;
+  align-items: center;           /* vertical center */
+  justify-content: center;       /* horizontal center */
+
+  text-align: center;
+  color: rgb(179, 163, 145);
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0 20px;
+  line-height: 1.4;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 4px 10px;   /* ⬅ reduce padding */
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.footer p {
+  color: #d8a8a8;
+  font-size: 12px;     /* ⬅ FIX: '4x' is invalid */
+  margin: 0;           /* ⬅ removes extra space */
+  line-height: 1.2;    /* ⬅ tighter height */
+}

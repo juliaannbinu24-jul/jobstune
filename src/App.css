@@ -1,0 +1,88 @@
+/* Reset default padding/margins */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main container for full background */
+.home-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 🔷 NAVBAR */
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* ✨ CENTER CONTENT */
+.center-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.quote {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  max-width: 700px;
+}
+
+/* 📜 FOOTER */
+.footer {
+  text-align: center;
+  padding: 12px 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.footer p {
+  color: #d8a8a8ff;
+  font-size: 14px;
+}
