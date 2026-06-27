@@ -10,7 +10,7 @@ import RecruiterDashboard from "./pages/RecruiterDashboard.jsx";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/jobstune">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
